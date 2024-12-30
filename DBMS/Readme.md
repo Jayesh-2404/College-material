@@ -1,12 +1,17 @@
-SRS for the payment managment system 
-
 ## Introduction
 
-The Payment Management System (PMS) is designed to handle all aspects of payment processing, including transaction management, user account management, and reporting.
+The Payment Management System (PMS) is designed to handle all aspects of payment
+
+->Payment 
+->Customer 
+->Account
+->security
+->transaction 
 
 ## System Requirements
 
-### Functional Requirements
+## Functional Requirements
+
 1. User Authentication and Authorization
     - Users must be able to register and log in.
     - Different roles (admin, user) with specific permissions.
@@ -19,10 +24,9 @@ The Payment Management System (PMS) is designed to handle all aspects of payment
     - The system should record all transactions.
     - Admins can view and manage all transactions.
 
-4. Reporting
-    - Generate reports on transactions, user activity, and system performance.
 
-### Non-Functional Requirements
+
+## Non-Functional Requirements
 1. Performance
     - The system should handle up to 10 transactions per second.
 
@@ -39,33 +43,34 @@ The Payment Management System (PMS) is designed to handle all aspects of payment
 ## Database Design
 
 ### Tables
-1. **customer**
+1. customer
     - `Customer_id` (Primary Key)
-    - `username`
-    - `password`
-    - `email`
-    - `role`
+    - `Name`
+    - `AC_TYPE`
+    - `DOB`
 
-2. **Payment**
-    - `payment_method_id` (Primary Key)
+2. Payment
+    - `DATE` (Primary Key)
     - `Customer_id` (Foreign Key)
     - `type` (e.g., credit card, bank account)
-    - `details` (encrypted)
+    - `STATUS` (encrypted)
+    - `P_ID` 
 
-3. **Transactions**
+
+3. Transactions
     - `transaction_id` (Primary Key)
     - `Customer_id` (Foreign Key)
     - `amount`
     - `status`
-    - `timestamp`
 
-4. **Security**
-    - `report_id` (Primary Key)
+
+4. Security
+    - `Security_ID` (Primary Key)
     - `type`
-    - `content`
-    - `generated_at`
+    - `status`
+    - `Customer_ID`
 
-5. **Account**
+5. Account
     - `Account_ID`(Primary key)
     - `Customer_ID`(Foreign  Key)
     - `Balance`
@@ -78,9 +83,6 @@ The Payment Management System (PMS) is designed to handle all aspects of payment
 
 ![alt text](image.png)
 
-## Conclusion
-
-The Payment Management System aims to provide a secure, efficient, and user-friendly platform for managing payments and transactions. The system's design ensures scalability, performance, and compliance with industry standards.
 
 ## Future Aspects
 
