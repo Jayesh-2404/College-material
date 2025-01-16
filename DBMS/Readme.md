@@ -81,7 +81,7 @@ The Payment Management System (PMS) is designed to handle all aspects of payment
 
 ## ER Diagram 
 
-![alt text](image.png)
+![dammmn ](image.png)
 
 
 ## Future Aspects

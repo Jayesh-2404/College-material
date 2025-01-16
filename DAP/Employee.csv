@@ -1,0 +1,4 @@
+"employee_id","first_name","last_name","email","phone_number","hire_date","job_id","salary","commission_pct","manager_id","department_id"
+1,"John","Doe","john.doe@example.com","1234567890","2022-01-15","IT_PROG","5000.00","0.10",100,60
+2,"Jane","Austin","jane.austin@example.com","9876543210","2021-12-01","HR_MGR","4800.00","0.15",101,70
+3,"Mike","Smith","mike.smith@example.com","5551234567","2020-06-23","IT_PROG","4500.00","",100,80

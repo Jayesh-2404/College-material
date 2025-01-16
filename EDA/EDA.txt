@@ -1,0 +1,31 @@
+data => known facts 
+what i will write is data is a collection of information in different type 
+of constraints .
+data is defined by many organization in different ways:-
+-> financial institure defined it as the collection of finance related
+data such as flow of the economy , cash rate 
+->historical books defined it as the collection of plan texts 
+->it sector tells it as the collection of computational data 
+
+CODATA -> 
+
+1> based with reference to time factor:
+    1> time-independent data 
+    2> time-dependent data 
+2> data with refernece to location factors:
+    1>Location-independent data 
+    2>Location-dependent data
+3> Data with refernce to mode of generation:
+    primary data
+    derived data 
+    theoretical data
+4>Data with referene to nature of quantitative values:
+    determinable data 
+    stochastic data 
+5>Data with refernce to tems of expresssion
+    quantitative data
+    semi-quantitative data 
+6> data with refernce to mode of representation
+    Numerical data 
+    Graphic data 
+    symbolic data 
